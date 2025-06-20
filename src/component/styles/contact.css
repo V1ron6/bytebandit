@@ -1,0 +1,133 @@
+:root {
+  --font_f: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  --color-main: rgb(51, 48, 48);
+  --color-sec: rgb(99, 85, 221);
+  --color-tird: white;
+  --height: 100px;
+  --borderForNav: 10px;
+  --fontSize: 1.5rem;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slack {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slacker {
+  from {
+    opacity: 0;
+    transform: rotateY("0");
+  }
+  to {
+    opacity: 1;
+    transform: rotateY("360");
+  }
+}
+
+#loader {
+  border: 0.01cm solid var(--color-sec);
+  border-radius: var(--borderForNav);
+  text-transform: capitalize;
+  animation: slack 2s linear;
+}
+
+#dot {
+  animation: slacker 1s infinite;
+}
+.form {
+  font-family: var(--font_f);
+  position: relative;
+  top: 50px;
+  margin-top: 16px;
+  border: 0.01cm solid var(--color-sec);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 500px));
+  gap: 20px;
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 0.6s ease-in-out;
+}
+
+.form-field {
+  position: relative;
+  left: -10px;
+  border: 0.01cm solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: var(--borderForNav);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-field:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+label {
+  text-transform: capitalize;
+  padding-bottom: 6px;
+  font-size: var(--fontSize);
+  color: var(--color-main);
+  transition: color 0.3s ease;
+}
+
+input,
+textarea {
+  width: 250px;
+  padding: 8px 12px;
+  border-radius: var(--borderForNav);
+  border: 0.01cm solid var(--color-tird);
+  outline: none;
+  font-size: 1rem;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--color-sec);
+  box-shadow: 0 0 6px rgba(99, 85, 221, 0.5);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+  width: 250px;
+}
+
+#mess {
+  border: 0.01cm solid var(--color-sec);
+}
+
+input[type="submit"] {
+  background-color: var(--color-sec);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(79, 66, 196);
+  transform: scale(1.03);
+}

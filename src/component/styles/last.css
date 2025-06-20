@@ -1,0 +1,39 @@
+:root {
+  --font_f: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  --color-main: rgb(51, 48, 48);
+  --color-sec: rgb(99, 85, 221);
+  --color-tird: white;
+  --height: 100px;
+  --borderForNav: 10px;
+  --fontSize: 1.5rem;
+}
+
+
+
+
+
+
+#laststraw{
+	text-align: center;
+	text-transform: capitalize;
+	font-family: var(--font_f);
+}
+footer{
+	border: 0.01cm solid var(--color-sec);
+	height: 100px;
+	position: relative;
+	top: 50px;
+	border-radius: var(--borderForNav);
+	margin-top: 20px;
+a{
+	margin: 8px;
+}
+div{
+	width: max-content;
+	margin: 20px;
+}
+img{
+	width: 40px;
+	height: 40px;
+}
+}

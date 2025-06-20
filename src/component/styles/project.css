@@ -1,0 +1,90 @@
+:root{
+	--font_f: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	--color-main: rgb(51, 48, 48);
+	--color-sec:rgb(99, 85, 221);
+	--color-tird:white;
+	--height: 100px;
+	--borderForNav: 10px;
+	--fontSize:1.5rem;
+	}
+.projects{
+	position: relative;
+	top: 100px;
+	#title{
+		text-transform: capitalize;
+	}
+	#title::first-letter{
+		color: var(--color-sec);
+	}
+	/* projects particulars*/
+	.project-grid{
+		display: grid;
+		grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap:20px;
+	}
+
+	.project-card{
+    height: 330px;
+		background-color: rgb(253, 253, 253);
+		box-shadow: 0px 2px 5px var(--color-main);
+		border-radius: var(--borderForNav);
+	}
+	#projectImage{
+	position: relative;
+  border: 0.01cm solid var(--color-sec);
+	height: 165px;
+	width: 100%;
+	border-radius: var(--borderForNav);
+
+	}
+	.content{
+		padding: 4px;
+		position: relative;
+		top: 10px;
+		border-radius: var(--borderForNav);
+		
+	}
+	#projectTitle{
+		position: relative;
+		top: -20px;
+    font-family: var(--font_f);
+	  font-size: 20px;
+	  padding-left: 4px;
+		background: var(--color-tird);
+		width: max-content;
+		border-radius:calc(var(--borderForNav)*0.5);
+		box-shadow: 0px 2px 5px var(--color-tird);
+	}
+	#projectTitle::first-letter{
+		color: var(--color-sec);
+		}
+	#projectDescri{
+		text-transform: capitalize;
+		font-family: var(--font_f);
+
+	}
+	#next{
+		width: 40%;
+		height: 30px;
+		background: var(--color-sec);
+		color: var(--color-tird);
+		outline: none;
+		border: 0.01cm solid var(--color-tird);
+		border-radius: var(--borderForNav);
+		transition: 1s ease-in-out;
+	}
+	#next:hover{
+		width: 40%;
+		height: 30px;
+		background: var(--color-sec);
+		color: var(--color-tird);
+		outline: none;
+		border: 0.01cm solid var(--color-tird);
+		border-radius: var(--borderForNav);
+		box-shadow: 0px 2px 5px var(--color-main);
+	  img{
+			padding-left: 4px;
+			margin-left: 4px;
+		}
+	}
+}

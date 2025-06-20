@@ -1,0 +1,77 @@
+[
+	{
+		"name": "E-commerce platform",
+		"src": "/projectimg/Ecommerce.jpg",
+		"description": "a full-featured online store built with React and Node.js"
+	},
+	{
+		"name": "Dashboard",
+		"src": "/projectimg/dash.jpg",
+		"description": "an analytical dashboard component built with React and Node.js"
+	},
+	{
+		"name": "Banking  app",
+		"src": "/projectimg/bank.jpg",
+		"description": "a full-featured banking simulation built with C++"
+	},
+	{
+		"name": "Food hub",
+		"src": "/projectimg/foodhub.jpg",
+		"description": "a full-featured online restaurant built with HTML, CSS and JS"
+	},
+	{
+		"name": "Quiz Master",
+		"src": "/projectimg/quiz.jpg",
+		"description": "an online quiz app with a timer and instant grading built using React"
+	},
+	{
+		"name": "Portfolio Showcase",
+		"src": " /projectimg/port.jpg",
+		"description": "a personal portfolio website built with React and Tailwind CSS"
+	},
+	{
+		"name": "Chat App",
+		"src": "/projectimg/chat.jpg",
+		"description": "a real-time messaging application built with Socket.io and React"
+	},
+	{
+		"name": "Expense Tracker",
+		"src": "/projectimg/tracker.jpg",
+		"description": "a budget management app built with React and Node.js"
+	},
+	{
+		"name": "AI Article Summarizer",
+		"src": "/projectimg/ai.jpg",
+		"description": "a tool that summarizes articles using GPT APIs, built with React"
+	},
+	{
+		"name": "Crypto Price Tracker",
+		"src": "/projectimg/wallet.jpg",
+		"description": "a live cryptocurrency price monitoring app built with React and an external API"
+	},
+	{
+		"name": "To-do CLI App",
+		"src": "/projectimg/todo.jpg",
+		"description": "a command-line to-do list manager written in C++"
+	},
+	{
+		"name": "Weather Finder",
+		"src": "/projectimg/Weather app.jpg",
+		"description": "a weather forecasting app using the OpenWeatherMap API and React"
+	},
+	{
+		"name": "Note Keeper",
+		"src": "/projectimg/note.jpg",
+		"description": "a web-based note-taking app with markdown support built with React"
+	},
+	{
+		"name": "Fitness Tracker",
+		"src": "/projectimg/fit.jpg",
+		"description": "a health and fitness tracking web app built with MERN stack"
+	},
+	{
+		"name": "Online Voting System",
+		"src": "/projectimg/vote.jpg",
+		"description": "a secure online voting app with authentication, built with Node.js and MongoDB"
+	}
+]

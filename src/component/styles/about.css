@@ -1,0 +1,31 @@
+:root{
+	--font_f: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	--color-main: rgb(51, 48, 48);
+	--color-sec:rgb(99, 85, 221);
+	--color-tird:white;
+	--height: 100px;
+	--borderForNav: 10px;
+	--fontSize:1.5rem;
+	}
+
+.about{
+	position: relative;
+	top: 100px;
+/* */
+	#intr{
+		text-transform: capitalize;
+		font-family: var(--font_f);
+	}
+	#intr::first-letter{
+		color: var(--color-sec);
+	}
+	.data{
+		border-radius: var(--borderForNav);
+		background: var(--color-tird);
+		padding: 8px;
+		box-shadow: 0 2px 10px rgba(17, 17, 17, 0.363);
+    #paragraph{
+			text-align:left;
+		}
+	}
+}

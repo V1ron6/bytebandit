@@ -1,0 +1,60 @@
+:root{
+--font_f: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+--color-main: rgb(51, 48, 48);
+--color-sec:rgb(99, 85, 221);
+--color-tird:white;
+--height: 100px;
+--borderForNav: 10px;
+}
+header{
+background-color: white;
+box-shadow: 0 2px 10px rgba(140, 181, 214, 0.384);
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 1000;
+font-size: 1rem;
+border-radius: 8px;
+
+
+.navMenu{
+	font-size: 1.0em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+
+#name{
+font-size: 1.5em;
+ font-family: inherit;
+ text-transform: capitalize;
+ padding: 2px;
+ }
+ #name::first-letter{
+	font-family: inherit;
+	text-transform: capitalize;
+	padding: 2px;
+	color: var(--color-sec);
+	}
+
+ #hire{
+ font-family: inherit;
+ width: calc(var(--height)*0.5);
+ height: calc(var(--height)*0.3);
+ margin:  4px;
+ border-radius: 8px;
+ outline: none;
+text-align: center;
+align-content: center;
+color: var(--color-sec);
+transition: 0.1s ease-in-out;
+text-transform: capitalize;
+
+ }
+ #hire:hover{
+ box-shadow:0 2px 5px rgba(129, 144, 156, 0.76);
+ background-color: var(--color-tird);
+ border: 0.01px solid rgb(245, 238, 238);
+	} 
+ }
+}

@@ -1,0 +1,69 @@
+:root {
+  --font_f: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  --color-main: rgb(51, 48, 48);
+  --color-sec: rgb(99, 85, 221);
+  --color-tird: white;
+  --height: 100px;
+  --borderForNav: 10px;
+  --fontSize: 1.5rem;
+}
+
+.intro {
+  position: relative;
+  top: 120px;
+  padding-left: 4px;
+
+  #fullName {
+    padding-top: 16px;
+    color: var(--color-main);
+  }
+
+  #spec {
+    text-transform: capitalize;
+    font-size: calc(var(--fontSize) * 0.8);
+    background: linear-gradient(
+      25deg,
+      var(--color-main),
+      var(--color-sec),
+      var(--color-main)
+    );
+    background-clip: text;
+    color: transparent;
+  }
+
+  .int {
+    height: calc(var(--height) * 1);
+    #abt {
+      text-transform: capitalize;
+    }
+    .cvDownload,
+    .contact {
+      text-transform: capitalize;
+      background: transparent;
+      outline: none;
+      height: calc(var(--height) * 0.3);
+      border-radius: var(--borderForNav);
+      margin: 4px;
+      width: 45%;
+      background: var(--color-sec);
+      color: var(--color-tird);
+      img {
+        color: var(--color-tird);
+      }
+      border: 0.01cm solid var(--color-tird);
+    }
+    .contact {
+      text-transform: capitalize;
+      background: transparent;
+      outline: none;
+      height: calc(var(--height) * 0.3);
+      background: var(--color-trid);
+      color: var(--color-sec);
+      border: 0.01cm solid var(--color-sec);
+    }
+  }
+  #profilepic {
+    border-radius: 50%;
+    padding: 20px;
+  }
+}
