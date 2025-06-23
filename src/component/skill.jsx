@@ -15,6 +15,7 @@ const skill=()=>{
 
 return(
 	<>
+	<div className="skril">
 	<h1 className='tit'>skills</h1>
 	<div id="skillset">
 		<div className='skill'>
@@ -44,6 +45,7 @@ return(
 		<div className='skill'>
 			<img src={javac} id="icon" />
 			<p id='name'>java</p>
+		</div>
 		</div>
 		</div>
 		</>

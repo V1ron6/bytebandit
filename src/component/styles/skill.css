@@ -15,6 +15,11 @@
 	color: var(--color-sec);
 	text-transform: capitalize;
 	}
+	.skril{
+		position:relative;
+		top:50px;
+
+	}
 #skillset{
 	font-family: var(--font_f);
 	margin-top: 80px;
