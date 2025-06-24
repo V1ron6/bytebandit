@@ -9,7 +9,7 @@ import Skill from './component/skill.jsx';
 import Contact from './component/contact.jsx';
 import Last from './component/last.jsx';
 import ResumeButton from './component/ResumeButton.jsx';
-import DarkModeToggle from '../DarkModeToggle.jsx';
+import DarkModeToggle from './DarkModeToggle.jsx';
 
 function App() {
   return (
