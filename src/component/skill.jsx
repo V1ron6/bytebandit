@@ -1,40 +1,54 @@
 import React from 'react';
+import './styles/skill.css';
+//imported images
+import rect from '../assets/react.svg';
+import css from '../assets/css3.svg';
+import html from '../assets/html5.svg';
+import js from '../assets/js.svg';
+import python from '../assets/python.svg';
+import node from '../assets/node-js.svg';
+import javac from '../assets/java.svg';
 
-const skills = [
-  { name: 'JavaScript', level: 90 },
-  { name: 'React', level: 85 },
-  { name: 'CSS', level: 80 },
-  { name: 'Node.js', level: 70 }
-  // Add more skills as needed
-];
 
-export default function Skill() {
-  return (
-    <section style={{padding:'2em 1em', maxWidth:600, margin:'0 auto'}}>
-      <h2 style={{textAlign:'center'}}>Skills</h2>
-      <div>
-        {skills.map(skill => (
-          <div key={skill.name} style={{margin: '1em 0'}}>
-            <div style={{display: 'flex', justifyContent: 'space-between'}}>
-              <span>{skill.name}</span>
-              <span>{skill.level}%</span>
-            </div>
-            <div className="skills-bar" style={{
-              background: '#eee',
-              borderRadius: '10px',
-              overflow: 'hidden',
-              height: '12px'
-            }}>
-              <div style={{
-                width: skill.level + '%',
-                background: '#007bff',
-                height: '100%',
-                transition: 'width 0.7s'
-              }} />
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
+
+const skill=()=>{
+
+return(
+	<>
+	<h1 className='tit'>skills</h1>
+	<div id="skillset">
+		<div className='skill'>
+			<img src={rect} id="icon" />
+			<p id='name'>react</p>
+		</div>
+		<div className='skill'>
+			<img src={html} id="icon" />
+			<p id='name'>html</p>
+		</div>
+		<div className='skill'>
+			<img src={js} id="icon" />
+			<p id='name'>js.</p>
+		</div>
+		<div className='skill'>
+			<img src={css} id="icon" />
+			<p id='name'>css</p>
+		</div>
+		<div className='skill'>
+			<img src={python} id="icon" />
+			<p id='name'>python</p>
+		</div>
+		<div className='skill'>
+			<img src={node} id="icon" />
+			<p id='name'>nodejs</p>
+		</div>
+		<div className='skill'>
+			<img src={javac} id="icon" />
+			<p id='name'>java</p>
+		</div>
+		</div>
+		</>
+
+
+)
 }
+export default skill;
