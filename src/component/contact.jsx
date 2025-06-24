@@ -64,7 +64,7 @@ const Contact = () => {
         ></textarea>
       </div>
 
-      <div className="form-field">
+      <div className="form-sub">
         <input type="submit" onClick={makebelieve} value="Send" />
       </div>
     </div>

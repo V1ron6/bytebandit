@@ -65,7 +65,7 @@
   animation: fadeInUp 0.6s ease-in-out;
 }
 
-.form-field {
+.form-field ,.form-sub{
   position: relative;
   left: -10px;
   border: 0.01cm solid rgba(0, 0, 0, 0.2);
@@ -77,7 +77,10 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.form-field:hover {
+.form-sub{
+  height:max-content;
+}
+.form-field:hover,.form-sub:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
