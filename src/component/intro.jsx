@@ -7,7 +7,7 @@ const Intro=()=>{
 	<>
 	<div className="intro">
 		<h1 id="fullName">Elvin Owusu</h1>
-		<p id="spec">full stuck developer</p>
+		<p id="spec">full stack developer</p>
 		<div className="int">
 			<p id="abt">
 				passionate about creating Elegant 
