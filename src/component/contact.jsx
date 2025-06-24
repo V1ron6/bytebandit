@@ -24,14 +24,15 @@ function makebelieve() {
 
 const Contact = () => {
   return (
-    <div className='form'>
+ <>
       <dialog id="loader">
         <p id='loadeText'>
           sending<span id='dot'>...</span>
         </p>
       </dialog>
+<div className='big'>
       <h1>Contact</h1>
-
+   <div className='form'>
       <div className="form-field">
         <label htmlFor="name">Name</label>
         <input type="text" id="name" required />
@@ -68,6 +69,8 @@ const Contact = () => {
         <input type="submit" onClick={makebelieve} value="Send" />
       </div>
     </div>
+    </div>
+    </>
   );
 };
 

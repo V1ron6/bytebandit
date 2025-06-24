@@ -49,10 +49,14 @@
 #dot {
   animation: slacker 1s infinite;
 }
+
+.big{
+position: relative;
+  top: 50px;
+}
 .form {
   font-family: var(--font_f);
-  position: relative;
-  top: 50px;
+  
   margin-top: 16px;
   border: 0.01cm solid var(--color-sec);
   padding: 20px;
@@ -77,8 +81,10 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+
 .form-sub{
   height:max-content;
+  width:max-content;
 }
 .form-field:hover,.form-sub:hover {
   transform: translateY(-3px);
