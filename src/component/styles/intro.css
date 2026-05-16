@@ -13,7 +13,9 @@
 
 #spec {
   margin: 0;
-  font-size: clamp(1rem, 2.1vw, 1.35rem);
+  max-width: 60ch;
+  font-size: clamp(0.96rem, 1.75vw, 1.22rem);
+  line-height: 1.35;
   color: var(--accent);
   font-weight: 700;
 }
@@ -45,6 +47,7 @@
 .cvDownload {
   background: linear-gradient(120deg, var(--accent), var(--accent-2));
   color: var(--accent-contrast);
+  box-shadow: 0 10px 24px color-mix(in srgb, var(--accent) 28%, transparent);
 }
 
 .contact {
