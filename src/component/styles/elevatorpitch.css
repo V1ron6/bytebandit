@@ -12,3 +12,8 @@
   color: var(--accent-contrast);
   background: linear-gradient(120deg, var(--accent), var(--accent-2));
 }
+
+.pitch-placeholder {
+  margin-top: 0.9rem;
+  font-weight: 600;
+}
