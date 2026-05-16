@@ -2,8 +2,8 @@
 	{
 		"name": "HGBMI",
 		"src": "/projectimg/dash.jpg",
-		"description": "Church attendance system built with React + Express.js and Neon PostgreSQL featuring QR-code scanning, JWT role-based auth, and Resend email OTP. Deployed on Vercel + Render.",
-		"tags": ["Full Stack", "React", "Express", "PostgreSQL", "Auth"]
+		"description": "Church attendance management system with QR attendance, JWT auth, and cloud deployment. Built with Node.js, React, PostgreSQL on Neon, and hosted across Render + Vercel.",
+		"tags": ["Full Stack", "Node.js", "React", "PostgreSQL", "Neon", "JWT", "Render", "Vercel"]
 	},
 	{
 		"name": "Edifix",
@@ -14,8 +14,8 @@
 	{
 		"name": "KidneyCheck",
 		"src": "/projectimg/fit.jpg",
-		"description": "Kidney disease risk screening MVP in React with a quiz, referral letter generation, and BP trend dashboard.",
-		"tags": ["React", "Healthcare", "Dashboard"]
+		"description": "Kidney disease risk assessment MVP built for West African communities, helping users screen symptoms early and access referral guidance faster.",
+		"tags": ["React", "Healthcare", "MVP", "West Africa"]
 	},
 	{
 		"name": "Codex",

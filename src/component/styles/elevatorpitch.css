@@ -1,0 +1,14 @@
+.elevator-pitch p {
+  margin: 0.2rem 0 0;
+  color: var(--text-soft);
+}
+
+.elevator-pitch a {
+  display: inline-flex;
+  margin-top: 0.9rem;
+  border-radius: 10px;
+  padding: 0.55rem 0.9rem;
+  font-weight: 700;
+  color: var(--accent-contrast);
+  background: linear-gradient(120deg, var(--accent), var(--accent-2));
+}

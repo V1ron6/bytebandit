@@ -3,6 +3,7 @@ import './App.css'
 //components
 import Nav from './component/nav.jsx';
 import Intro from './component/intro.jsx';
+import ElevatorPitch from './component/elevatorpitch.jsx';
 import About from './component/about.jsx';
 import Services from './component/services.jsx';
 import Projects from './component/project.jsx';
@@ -16,8 +17,8 @@ import ScrollTop from './component/scrolltop.jsx';
 
 const STORAGE_MODE_KEY = 'portfolio-theme-mode';
 const STORAGE_ACCENT_KEY = 'portfolio-accent';
-const DEFAULT_MODE = 'light';
-const DEFAULT_ACCENT = 'blue';
+const DEFAULT_MODE = 'dark';
+const DEFAULT_ACCENT = 'green';
 
 function App() {
   const [mode, setMode] = useState(() => localStorage.getItem(STORAGE_MODE_KEY) || DEFAULT_MODE);
@@ -47,13 +48,14 @@ function App() {
       />
       <main>
         <Intro />
+        <Contact />
         <About />
+        <ElevatorPitch />
         <Services />
         <Projects />
         <Skill />
         <Stats />
         <Timeline />
-        <Contact />
       </main>
       <Last />
       <ScrollTop />

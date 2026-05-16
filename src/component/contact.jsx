@@ -39,8 +39,12 @@ const Contact = () => {
 
   return (
     <section className="section contact-wrap" id="contact">
-      <p className="eyebrow">Let's Build</p>
-      <h2>Contact</h2>
+      <p className="eyebrow">Let&apos;s Build</p>
+      <h2>Let&apos;s Work Together</h2>
+      <p className="contact-copy">Get In Touch to discuss secure products, audits, and collaboration.</p>
+      <a className="contact-cta" href="mailto:mindedbusines@gmail.com">
+        Start a Conversation
+      </a>
 
       <form className="form" onSubmit={onSubmit} noValidate>
         <div className="status-line" aria-live="polite">

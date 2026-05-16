@@ -1,26 +1,28 @@
 import React from "react";
 import './styles/intro.css';
 import download from '../assets/download.svg';
-import cvFile from '../assets/elvin.txt';
 import imgProfile from '../assets/profile.jpg.jpg';
+
+const cvUrl = 'https://drive.google.com/file/d/18gthJ487C1Q2qLE7d9kxVb0V7dpNpvHW/view?usp=drivesdk';
+
 const Intro = () => {
 	return (
 		<section className="section intro" id="home">
 			<div className="intro-copy">
 				<p className="eyebrow">Portfolio 2026</p>
 				<h1 id="fullName">Elvin Owusu</h1>
-				<p id="spec">Cybersecurity &amp; Full-Stack Developer</p>
+				<p id="spec">Cybersecurity Specialist &amp; Full-Stack Developer | Building Secure Systems for Africa&apos;s Digital Future</p>
 				<p id="abt">
 					I design secure, performant web products and sharpen offensive security
 					skills through hands-on labs, CTFs, and self-driven learning.
 				</p>
 
 				<div className="intro-actions">
-					<a className="cvDownload" href={cvFile} download>
-						download cv <img src={download} height={12} width={12} alt="download icon" />
+					<a className="cvDownload" href={cvUrl} target="_blank" rel="noreferrer">
+						Download CV <img src={download} height={12} width={12} alt="download icon" />
 					</a>
 					<a className="contact" href="#contact">
-						contact
+						Contact
 					</a>
 				</div>
 			</div>
