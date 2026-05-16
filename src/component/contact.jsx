@@ -32,17 +32,17 @@ const Contact = () => {
         `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`
       );
 
-      window.location.href = `mailto:mindedbusines@gmail.com?subject=${mailSubject}&body=${mailBody}`;
+      window.location.href = `mailto:mindedbusiness@gmail.com?subject=${mailSubject}&body=${mailBody}`;
       setFormData({ name: '', email: '', subject: '', message: '' });
     }, 1200);
   };
 
   return (
     <section className="section contact-wrap" id="contact">
-      <p className="eyebrow">Let&apos;s Build</p>
-      <h2>Let&apos;s Work Together</h2>
-      <p className="contact-copy">Get In Touch to discuss secure products, audits, and collaboration.</p>
-      <a className="contact-cta" href="mailto:mindedbusines@gmail.com">
+      <p className="eyebrow">Let's Build</p>
+      <h2>Let's Work Together</h2>
+      <p className="contact-copy">Get in touch to discuss secure products, audits, and collaboration.</p>
+      <a className="contact-cta" href="mailto:mindedbusiness@gmail.com">
         Start a Conversation
       </a>
 

@@ -11,7 +11,7 @@ const Intro = () => {
 			<div className="intro-copy">
 				<p className="eyebrow">Portfolio 2026</p>
 				<h1 id="fullName">Elvin Owusu</h1>
-				<p id="spec">Cybersecurity Specialist &amp; Full-Stack Developer | Building Secure Systems for Africa&apos;s Digital Future</p>
+				<p id="spec">Cybersecurity Specialist &amp; Full-Stack Developer | Building Secure Systems for Africa's Digital Future</p>
 				<p id="abt">
 					I design secure, performant web products and sharpen offensive security
 					skills through hands-on labs, CTFs, and self-driven learning.

@@ -83,7 +83,7 @@ const Nav = ({ mode, accent, onToggleMode, onAccentChange }) => {
 					/>
 				</nav>
 
-				<a id="hire" href="mailto:mindedbusines@gmail.com">
+				<a id="hire" href="mailto:mindedbusiness@gmail.com">
 					hire me
 				</a>
 			</div>
