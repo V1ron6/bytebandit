@@ -2,6 +2,22 @@ import React from 'react';
 import { useEffect, useMemo, useState } from 'react';
 import './styles/project.css';
 
+const OPENGRAPH_PREFIX = 'https://opengraph.githubassets.com/';
+
+const createProjectPlaceholder = (name = 'Project') =>
+	`data:image/svg+xml;charset=UTF-8,${encodeURIComponent(
+		`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+			<defs>
+				<linearGradient id="gradient" x1="0" y1="0" x2="1" y2="1">
+					<stop offset="0%" stop-color="#0f172a" />
+					<stop offset="100%" stop-color="#1f2937" />
+				</linearGradient>
+			</defs>
+			<rect width="1200" height="630" fill="url(#gradient)" />
+			<text x="600" y="315" text-anchor="middle" dominant-baseline="middle" fill="#f8fafc" font-size="64" font-family="Inter, Arial, sans-serif">${name}</text>
+		</svg>`
+	)}`;
+
 const Projects = () => {
 	const [project, setProject] = useState([]);
 	const [search, setSearch] = useState('');
@@ -32,14 +48,21 @@ const Projects = () => {
 			try {
 				const response = await fetch(url);
 				const jdata = await response.json();
-				const prepared = jdata.map((item, index) => ({
-					...item,
-					src: String(item.src || '').trim(),
-					tags: inferTags(item),
-					live: typeof item.live === 'string' && item.live.trim() ? item.live.trim() : null,
-					code: item.code || '#',
-					order: jdata.length - index,
-				}));
+				const prepared = jdata.map((item, index) => {
+					const source = String(item.src || '').trim();
+					const fallbackSrc = createProjectPlaceholder(item.name);
+					const isOgpImage = source.startsWith(OPENGRAPH_PREFIX);
+
+					return {
+						...item,
+						src: isOgpImage || !source ? fallbackSrc : source,
+						fallbackSrc,
+						tags: inferTags(item),
+						live: typeof item.live === 'string' && item.live.trim() ? item.live.trim() : null,
+						code: item.code || '#',
+						order: jdata.length - index,
+					};
+				});
 				setProject(prepared);
 			} catch (error) {
 				console.log(error);
@@ -108,7 +131,16 @@ const Projects = () => {
 			<div className="project-grid">
 				{filteredProjects.map((item, index) => (
 					<article key={`${item.name}-${index}`} className="project-card">
-						<img className="project-image" src={item.src.trim()} alt={`${item.name} preview`} />
+						<img
+							className="project-image"
+							src={item.src.trim()}
+							alt={`${item.name} preview`}
+							loading="lazy"
+							onError={(event) => {
+								event.currentTarget.onerror = null;
+								event.currentTarget.src = item.fallbackSrc || '/logo.jpg';
+							}}
+						/>
 						<div className="content">
 							<h3 className="project-title">{item.name}</h3>
 							<p className="project-description">{item.description}</p>
