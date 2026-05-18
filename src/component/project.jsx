@@ -4,18 +4,23 @@ import './styles/project.css';
 
 const OPENGRAPH_PREFIX = 'https://opengraph.githubassets.com/';
 
+const escapeXml = (value = '') =>
+	String(value)
+		.replaceAll('&', '&amp;')
+		.replaceAll('<', '&lt;')
+		.replaceAll('>', '&gt;')
+		.replaceAll('"', '&quot;')
+		.replaceAll("'", '&apos;');
+
 const createProjectPlaceholder = (name = 'Project') =>
 	`data:image/svg+xml;charset=UTF-8,${encodeURIComponent(
-		`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-			<defs>
-				<linearGradient id="gradient" x1="0" y1="0" x2="1" y2="1">
-					<stop offset="0%" stop-color="#0f172a" />
-					<stop offset="100%" stop-color="#1f2937" />
-				</linearGradient>
-			</defs>
-			<rect width="1200" height="630" fill="url(#gradient)" />
-			<text x="600" y="315" text-anchor="middle" dominant-baseline="middle" fill="#f8fafc" font-size="64" font-family="Inter, Arial, sans-serif">${name}</text>
-		</svg>`
+		(() => {
+			const safeName = escapeXml(name);
+			return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+			<rect width="1200" height="630" fill="#111827" />
+			<text x="600" y="315" text-anchor="middle" dominant-baseline="middle" fill="#f8fafc" font-size="64" font-family="Inter, Arial, sans-serif">${safeName}</text>
+		</svg>`;
+		})()
 	)}`;
 const DEFAULT_PROJECT_IMAGE = createProjectPlaceholder();
 
