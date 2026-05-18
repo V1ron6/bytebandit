@@ -1,26 +1,178 @@
 [
-	{
-		"name": "HGBMI",
-		"src": "/projectimg/dash.jpg",
-		"description": "Church attendance management system with QR attendance, JWT auth, and cloud deployment. Built with Node.js, React, PostgreSQL on Neon, and hosted across Render + Vercel.",
-		"tags": ["Full Stack", "Node.js", "React", "PostgreSQL", "Neon", "JWT", "Render", "Vercel"]
-	},
-	{
-		"name": "Edifix",
-		"src": "/projectimg/quiz.jpg",
-		"description": "Stage-based web development learning platform built with React, Node.js/Express, and MySQL.",
-		"tags": ["Full Stack", "React", "Express", "MySQL"]
-	},
-	{
-		"name": "KidneyCheck",
-		"src": "/projectimg/fit.jpg",
-		"description": "Kidney disease risk assessment MVP built for West African communities, helping users screen symptoms early and access referral guidance faster.",
-		"tags": ["React", "Healthcare", "MVP", "West Africa"]
-	},
-	{
-		"name": "Codex",
-		"src": "/projectimg/chat.jpg",
-		"description": "Collaborative full-stack product under the Codex Tech Hub org built with MongoDB/Mongoose.",
-		"tags": ["Full Stack", "MongoDB", "Collaboration"]
-	}
+  {
+    "name": "bytebandit",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/bytebandit",
+    "description": "bytebandit is a JavaScript project with a live deployment.",
+    "tags": [
+      "JavaScript",
+      "Live"
+    ],
+    "live": "https://bytebandit.vercel.app",
+    "code": "https://github.com/V1ron6/bytebandit"
+  },
+  {
+    "name": "OsDev",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/OsDev",
+    "description": "OsDev is a C project hosted on GitHub.",
+    "tags": [
+      "C"
+    ],
+    "live": null,
+    "code": "https://github.com/V1ron6/OsDev"
+  },
+  {
+    "name": "edifix",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/edifix",
+    "description": "edifix is a JavaScript project with a live deployment.",
+    "tags": [
+      "JavaScript",
+      "Live"
+    ],
+    "live": "https://edifix-gamma.vercel.app",
+    "code": "https://github.com/V1ron6/edifix"
+  },
+  {
+    "name": "V1ron6",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/V1ron6",
+    "description": "Config files for my GitHub profile.",
+    "tags": [
+      "Live",
+      "config",
+      "github-config"
+    ],
+    "live": "https://github.com/V1ron6",
+    "code": "https://github.com/V1ron6/V1ron6"
+  },
+  {
+    "name": "KDEDS",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/KDEDS",
+    "description": "KDEDS - kidney disease early detection system",
+    "tags": [
+      "JavaScript"
+    ],
+    "live": null,
+    "code": "https://github.com/V1ron6/KDEDS"
+  },
+  {
+    "name": "Experiment",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/Experiment",
+    "description": "Python projects",
+    "tags": [
+      "Python"
+    ],
+    "live": null,
+    "code": "https://github.com/V1ron6/Experiment"
+  },
+  {
+    "name": "Offshore-2.0",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/Offshore-2.0",
+    "description": "The future of shopping",
+    "tags": [
+      "JavaScript",
+      "Live"
+    ],
+    "live": "https://offshoreremake.vercel.app/",
+    "code": "https://github.com/V1ron6/Offshore-2.0"
+  },
+  {
+    "name": "Yt-downloader",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/Yt-downloader",
+    "description": "Yt-downloader is a Python project hosted on GitHub.",
+    "tags": [
+      "Python"
+    ],
+    "live": null,
+    "code": "https://github.com/V1ron6/Yt-downloader"
+  },
+  {
+    "name": "Easy-stuff",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/Easy-stuff",
+    "description": "Easy-stuff is a C++ project hosted on GitHub.",
+    "tags": [
+      "C++"
+    ],
+    "live": null,
+    "code": "https://github.com/V1ron6/Easy-stuff"
+  },
+  {
+    "name": "offshore",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/offshore",
+    "description": "offshore is a JavaScript project with a live deployment.",
+    "tags": [
+      "JavaScript",
+      "Live"
+    ],
+    "live": "https://offshore-beta.vercel.app",
+    "code": "https://github.com/V1ron6/offshore"
+  },
+  {
+    "name": "Guess-the-number-",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/Guess-the-number-",
+    "description": "A guessing game created in bash",
+    "tags": [
+      "Shell"
+    ],
+    "live": null,
+    "code": "https://github.com/V1ron6/Guess-the-number-"
+  },
+  {
+    "name": "Week3-crud-todo-api",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/Week3-crud-todo-api",
+    "description": "Week3-crud-todo-api is a JavaScript project hosted on GitHub.",
+    "tags": [
+      "JavaScript"
+    ],
+    "live": null,
+    "code": "https://github.com/V1ron6/Week3-crud-todo-api"
+  },
+  {
+    "name": "Btech_backend_week2",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/Btech_backend_week2",
+    "description": "Btech_backend_week2 is a JavaScript project hosted on GitHub.",
+    "tags": [
+      "JavaScript"
+    ],
+    "live": null,
+    "code": "https://github.com/V1ron6/Btech_backend_week2"
+  },
+  {
+    "name": "tecno",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/tecno",
+    "description": "tecno is a HTML project hosted on GitHub.",
+    "tags": [
+      "HTML"
+    ],
+    "live": null,
+    "code": "https://github.com/V1ron6/tecno"
+  },
+  {
+    "name": "Btech_backend",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/Btech_backend",
+    "description": "A repository I created for my backend course at btechnified",
+    "tags": [
+      "JavaScript"
+    ],
+    "live": null,
+    "code": "https://github.com/V1ron6/Btech_backend"
+  },
+  {
+    "name": "portfolio",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/portfolio",
+    "description": "portfolio is a CSS project hosted on GitHub.",
+    "tags": [
+      "CSS"
+    ],
+    "live": null,
+    "code": "https://github.com/V1ron6/portfolio"
+  },
+  {
+    "name": "foodhub",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/foodhub",
+    "description": "A site made in HTML using the fetch API function",
+    "tags": [
+      "CSS"
+    ],
+    "live": null,
+    "code": "https://github.com/V1ron6/foodhub"
+  }
 ]
