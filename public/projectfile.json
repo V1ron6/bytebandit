@@ -2,11 +2,10 @@
   {
     "name": "bytebandit",
     "src": "https://opengraph.githubassets.com/1/V1ron6/bytebandit",
-    "description": "No description provided on GitHub.",
+    "description": "bytebandit is a JavaScript project with a live deployment.",
     "tags": [
-      "GitHub",
-      "Public",
-      "JavaScript"
+      "JavaScript",
+      "Live"
     ],
     "live": "https://bytebandit.vercel.app",
     "code": "https://github.com/V1ron6/bytebandit"
@@ -14,10 +13,8 @@
   {
     "name": "OsDev",
     "src": "https://opengraph.githubassets.com/1/V1ron6/OsDev",
-    "description": "No description provided on GitHub.",
+    "description": "OsDev is a C project hosted on GitHub.",
     "tags": [
-      "GitHub",
-      "Public",
       "C"
     ],
     "live": null,
@@ -26,11 +23,10 @@
   {
     "name": "edifix",
     "src": "https://opengraph.githubassets.com/1/V1ron6/edifix",
-    "description": "No description provided on GitHub.",
+    "description": "edifix is a JavaScript project with a live deployment.",
     "tags": [
-      "GitHub",
-      "Public",
-      "JavaScript"
+      "JavaScript",
+      "Live"
     ],
     "live": "https://edifix-gamma.vercel.app",
     "code": "https://github.com/V1ron6/edifix"
@@ -40,8 +36,9 @@
     "src": "https://opengraph.githubassets.com/1/V1ron6/V1ron6",
     "description": "Config files for my GitHub profile.",
     "tags": [
-      "GitHub",
-      "Public"
+      "Live",
+      "config",
+      "github-config"
     ],
     "live": "https://github.com/V1ron6",
     "code": "https://github.com/V1ron6/V1ron6"
@@ -51,8 +48,6 @@
     "src": "https://opengraph.githubassets.com/1/V1ron6/KDEDS",
     "description": "KDEDS - kidney disease early detection system",
     "tags": [
-      "GitHub",
-      "Public",
       "JavaScript"
     ],
     "live": null,
@@ -63,8 +58,6 @@
     "src": "https://opengraph.githubassets.com/1/V1ron6/Experiment",
     "description": "Python projects",
     "tags": [
-      "GitHub",
-      "Public",
       "Python"
     ],
     "live": null,
@@ -75,9 +68,8 @@
     "src": "https://opengraph.githubassets.com/1/V1ron6/Offshore-2.0",
     "description": "The future of shopping",
     "tags": [
-      "GitHub",
-      "Public",
-      "JavaScript"
+      "JavaScript",
+      "Live"
     ],
     "live": "https://offshoreremake.vercel.app/",
     "code": "https://github.com/V1ron6/Offshore-2.0"
@@ -85,10 +77,8 @@
   {
     "name": "Yt-downloader",
     "src": "https://opengraph.githubassets.com/1/V1ron6/Yt-downloader",
-    "description": "No description provided on GitHub.",
+    "description": "Yt-downloader is a Python project hosted on GitHub.",
     "tags": [
-      "GitHub",
-      "Public",
       "Python"
     ],
     "live": null,
@@ -97,10 +87,8 @@
   {
     "name": "Easy-stuff",
     "src": "https://opengraph.githubassets.com/1/V1ron6/Easy-stuff",
-    "description": "No description provided on GitHub.",
+    "description": "Easy-stuff is a C++ project hosted on GitHub.",
     "tags": [
-      "GitHub",
-      "Public",
       "C++"
     ],
     "live": null,
@@ -109,11 +97,10 @@
   {
     "name": "offshore",
     "src": "https://opengraph.githubassets.com/1/V1ron6/offshore",
-    "description": "No description provided on GitHub.",
+    "description": "offshore is a JavaScript project with a live deployment.",
     "tags": [
-      "GitHub",
-      "Public",
-      "JavaScript"
+      "JavaScript",
+      "Live"
     ],
     "live": "https://offshore-beta.vercel.app",
     "code": "https://github.com/V1ron6/offshore"
@@ -123,8 +110,6 @@
     "src": "https://opengraph.githubassets.com/1/V1ron6/Guess-the-number-",
     "description": "A guessing game created in bash",
     "tags": [
-      "GitHub",
-      "Public",
       "Shell"
     ],
     "live": null,
@@ -133,10 +118,8 @@
   {
     "name": "Week3-crud-todo-api",
     "src": "https://opengraph.githubassets.com/1/V1ron6/Week3-crud-todo-api",
-    "description": "No description provided on GitHub.",
+    "description": "Week3-crud-todo-api is a JavaScript project hosted on GitHub.",
     "tags": [
-      "GitHub",
-      "Public",
       "JavaScript"
     ],
     "live": null,
@@ -145,10 +128,8 @@
   {
     "name": "Btech_backend_week2",
     "src": "https://opengraph.githubassets.com/1/V1ron6/Btech_backend_week2",
-    "description": "No description provided on GitHub.",
+    "description": "Btech_backend_week2 is a JavaScript project hosted on GitHub.",
     "tags": [
-      "GitHub",
-      "Public",
       "JavaScript"
     ],
     "live": null,
@@ -157,10 +138,8 @@
   {
     "name": "tecno",
     "src": "https://opengraph.githubassets.com/1/V1ron6/tecno",
-    "description": "No description provided on GitHub.",
+    "description": "tecno is a HTML project hosted on GitHub.",
     "tags": [
-      "GitHub",
-      "Public",
       "HTML"
     ],
     "live": null,
@@ -171,8 +150,6 @@
     "src": "https://opengraph.githubassets.com/1/V1ron6/Btech_backend",
     "description": "A repository I created for my backend course at btechnified",
     "tags": [
-      "GitHub",
-      "Public",
       "JavaScript"
     ],
     "live": null,
@@ -181,10 +158,8 @@
   {
     "name": "portfolio",
     "src": "https://opengraph.githubassets.com/1/V1ron6/portfolio",
-    "description": "No description provided on GitHub.",
+    "description": "portfolio is a CSS project hosted on GitHub.",
     "tags": [
-      "GitHub",
-      "Public",
       "CSS"
     ],
     "live": null,
@@ -195,8 +170,6 @@
     "src": "https://opengraph.githubassets.com/1/V1ron6/foodhub",
     "description": "A site made in HTML using the fetch API function",
     "tags": [
-      "GitHub",
-      "Public",
       "CSS"
     ],
     "live": null,
