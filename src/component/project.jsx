@@ -17,6 +17,7 @@ const createProjectPlaceholder = (name = 'Project') =>
 			<text x="600" y="315" text-anchor="middle" dominant-baseline="middle" fill="#f8fafc" font-size="64" font-family="Inter, Arial, sans-serif">${name}</text>
 		</svg>`
 	)}`;
+const DEFAULT_PROJECT_IMAGE = createProjectPlaceholder();
 
 const Projects = () => {
 	const [project, setProject] = useState([]);
@@ -138,7 +139,7 @@ const Projects = () => {
 							loading="lazy"
 							onError={(event) => {
 								event.currentTarget.onerror = null;
-								event.currentTarget.src = item.fallbackSrc || '/logo.jpg';
+								event.currentTarget.src = item.fallbackSrc || DEFAULT_PROJECT_IMAGE;
 							}}
 						/>
 						<div className="content">
