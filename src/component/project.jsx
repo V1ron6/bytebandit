@@ -36,7 +36,7 @@ const Projects = () => {
 					...item,
 					src: String(item.src || '').trim(),
 					tags: inferTags(item),
-					live: item.live || '#',
+					live: typeof item.live === 'string' && item.live.trim() ? item.live.trim() : null,
 					code: item.code || '#',
 					order: jdata.length - index,
 				}));
@@ -120,9 +120,11 @@ const Projects = () => {
 								))}
 							</div>
 							<div className="project-actions">
-								<a id="next" href={item.live} target="_blank" rel="noreferrer">
-									Live Demo
-								</a>
+								{item.live ? (
+									<a id="next" href={item.live} target="_blank" rel="noreferrer">
+										Live Demo
+									</a>
+								) : null}
 								<a className="ghost-link" href={item.code} target="_blank" rel="noreferrer">
 									Source
 								</a>

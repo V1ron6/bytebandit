@@ -2,7 +2,7 @@
   {
     "name": "bytebandit",
     "src": "https://opengraph.githubassets.com/1/V1ron6/bytebandit",
-    "description": "Repository for bytebandit.",
+    "description": "No description provided on GitHub.",
     "tags": [
       "GitHub",
       "Public",
@@ -14,19 +14,19 @@
   {
     "name": "OsDev",
     "src": "https://opengraph.githubassets.com/1/V1ron6/OsDev",
-    "description": "Repository for OsDev.",
+    "description": "No description provided on GitHub.",
     "tags": [
       "GitHub",
       "Public",
       "C"
     ],
-    "live": "#",
+    "live": null,
     "code": "https://github.com/V1ron6/OsDev"
   },
   {
     "name": "edifix",
     "src": "https://opengraph.githubassets.com/1/V1ron6/edifix",
-    "description": "Repository for edifix.",
+    "description": "No description provided on GitHub.",
     "tags": [
       "GitHub",
       "Public",
@@ -55,7 +55,7 @@
       "Public",
       "JavaScript"
     ],
-    "live": "#",
+    "live": null,
     "code": "https://github.com/V1ron6/KDEDS"
   },
   {
@@ -67,13 +67,13 @@
       "Public",
       "Python"
     ],
-    "live": "#",
+    "live": null,
     "code": "https://github.com/V1ron6/Experiment"
   },
   {
     "name": "Offshore-2.0",
     "src": "https://opengraph.githubassets.com/1/V1ron6/Offshore-2.0",
-    "description": "the future of shopping",
+    "description": "The future of shopping",
     "tags": [
       "GitHub",
       "Public",
@@ -85,31 +85,31 @@
   {
     "name": "Yt-downloader",
     "src": "https://opengraph.githubassets.com/1/V1ron6/Yt-downloader",
-    "description": "Repository for Yt-downloader.",
+    "description": "No description provided on GitHub.",
     "tags": [
       "GitHub",
       "Public",
       "Python"
     ],
-    "live": "#",
+    "live": null,
     "code": "https://github.com/V1ron6/Yt-downloader"
   },
   {
     "name": "Easy-stuff",
     "src": "https://opengraph.githubassets.com/1/V1ron6/Easy-stuff",
-    "description": "Repository for Easy-stuff.",
+    "description": "No description provided on GitHub.",
     "tags": [
       "GitHub",
       "Public",
       "C++"
     ],
-    "live": "#",
+    "live": null,
     "code": "https://github.com/V1ron6/Easy-stuff"
   },
   {
     "name": "offshore",
     "src": "https://opengraph.githubassets.com/1/V1ron6/offshore",
-    "description": "Repository for offshore.",
+    "description": "No description provided on GitHub.",
     "tags": [
       "GitHub",
       "Public",
@@ -127,43 +127,43 @@
       "Public",
       "Shell"
     ],
-    "live": "#",
+    "live": null,
     "code": "https://github.com/V1ron6/Guess-the-number-"
   },
   {
     "name": "Week3-crud-todo-api",
     "src": "https://opengraph.githubassets.com/1/V1ron6/Week3-crud-todo-api",
-    "description": "Repository for Week3-crud-todo-api.",
+    "description": "No description provided on GitHub.",
     "tags": [
       "GitHub",
       "Public",
       "JavaScript"
     ],
-    "live": "#",
+    "live": null,
     "code": "https://github.com/V1ron6/Week3-crud-todo-api"
   },
   {
     "name": "Btech_backend_week2",
     "src": "https://opengraph.githubassets.com/1/V1ron6/Btech_backend_week2",
-    "description": "Repository for Btech_backend_week2.",
+    "description": "No description provided on GitHub.",
     "tags": [
       "GitHub",
       "Public",
       "JavaScript"
     ],
-    "live": "#",
+    "live": null,
     "code": "https://github.com/V1ron6/Btech_backend_week2"
   },
   {
     "name": "tecno",
     "src": "https://opengraph.githubassets.com/1/V1ron6/tecno",
-    "description": "Repository for tecno.",
+    "description": "No description provided on GitHub.",
     "tags": [
       "GitHub",
       "Public",
       "HTML"
     ],
-    "live": "#",
+    "live": null,
     "code": "https://github.com/V1ron6/tecno"
   },
   {
@@ -175,31 +175,31 @@
       "Public",
       "JavaScript"
     ],
-    "live": "#",
+    "live": null,
     "code": "https://github.com/V1ron6/Btech_backend"
   },
   {
     "name": "portfolio",
     "src": "https://opengraph.githubassets.com/1/V1ron6/portfolio",
-    "description": "Repository for portfolio.",
+    "description": "No description provided on GitHub.",
     "tags": [
       "GitHub",
       "Public",
       "CSS"
     ],
-    "live": "#",
+    "live": null,
     "code": "https://github.com/V1ron6/portfolio"
   },
   {
     "name": "foodhub",
     "src": "https://opengraph.githubassets.com/1/V1ron6/foodhub",
-    "description": "a site made in html using the fetch api function",
+    "description": "A site made in HTML using the fetch API function",
     "tags": [
       "GitHub",
       "Public",
       "CSS"
     ],
-    "live": "#",
+    "live": null,
     "code": "https://github.com/V1ron6/foodhub"
   }
 ]
