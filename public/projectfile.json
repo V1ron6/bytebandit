@@ -1,26 +1,205 @@
 [
-	{
-		"name": "HGBMI",
-		"src": "/projectimg/dash.jpg",
-		"description": "Church attendance management system with QR attendance, JWT auth, and cloud deployment. Built with Node.js, React, PostgreSQL on Neon, and hosted across Render + Vercel.",
-		"tags": ["Full Stack", "Node.js", "React", "PostgreSQL", "Neon", "JWT", "Render", "Vercel"]
-	},
-	{
-		"name": "Edifix",
-		"src": "/projectimg/quiz.jpg",
-		"description": "Stage-based web development learning platform built with React, Node.js/Express, and MySQL.",
-		"tags": ["Full Stack", "React", "Express", "MySQL"]
-	},
-	{
-		"name": "KidneyCheck",
-		"src": "/projectimg/fit.jpg",
-		"description": "Kidney disease risk assessment MVP built for West African communities, helping users screen symptoms early and access referral guidance faster.",
-		"tags": ["React", "Healthcare", "MVP", "West Africa"]
-	},
-	{
-		"name": "Codex",
-		"src": "/projectimg/chat.jpg",
-		"description": "Collaborative full-stack product under the Codex Tech Hub org built with MongoDB/Mongoose.",
-		"tags": ["Full Stack", "MongoDB", "Collaboration"]
-	}
+  {
+    "name": "bytebandit",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/bytebandit",
+    "description": "GitHub repository: bytebandit.",
+    "tags": [
+      "GitHub",
+      "Public",
+      "JavaScript"
+    ],
+    "live": "https://bytebandit.vercel.app",
+    "code": "https://github.com/V1ron6/bytebandit"
+  },
+  {
+    "name": "OsDev",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/OsDev",
+    "description": "GitHub repository: OsDev.",
+    "tags": [
+      "GitHub",
+      "Public",
+      "C"
+    ],
+    "live": "https://github.com/V1ron6/OsDev",
+    "code": "https://github.com/V1ron6/OsDev"
+  },
+  {
+    "name": "edifix",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/edifix",
+    "description": "GitHub repository: edifix.",
+    "tags": [
+      "GitHub",
+      "Public",
+      "JavaScript"
+    ],
+    "live": "https://edifix-gamma.vercel.app",
+    "code": "https://github.com/V1ron6/edifix"
+  },
+  {
+    "name": "V1ron6",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/V1ron6",
+    "description": "Config files for my GitHub profile.",
+    "tags": [
+      "GitHub",
+      "Public"
+    ],
+    "live": "https://github.com/V1ron6",
+    "code": "https://github.com/V1ron6/V1ron6"
+  },
+  {
+    "name": "KDEDS",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/KDEDS",
+    "description": "KDEDS- kidney disease early detection system",
+    "tags": [
+      "GitHub",
+      "Public",
+      "JavaScript"
+    ],
+    "live": "https://github.com/V1ron6/KDEDS",
+    "code": "https://github.com/V1ron6/KDEDS"
+  },
+  {
+    "name": "Experiment",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/Experiment",
+    "description": "Python projects ",
+    "tags": [
+      "GitHub",
+      "Public",
+      "Python"
+    ],
+    "live": "https://github.com/V1ron6/Experiment",
+    "code": "https://github.com/V1ron6/Experiment"
+  },
+  {
+    "name": "Offshore-2.0",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/Offshore-2.0",
+    "description": "the future of shopping",
+    "tags": [
+      "GitHub",
+      "Public",
+      "JavaScript"
+    ],
+    "live": "https://offshoreremake.vercel.app/",
+    "code": "https://github.com/V1ron6/Offshore-2.0"
+  },
+  {
+    "name": "Yt-downloader",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/Yt-downloader",
+    "description": "GitHub repository: Yt-downloader.",
+    "tags": [
+      "GitHub",
+      "Public",
+      "Python"
+    ],
+    "live": "https://github.com/V1ron6/Yt-downloader",
+    "code": "https://github.com/V1ron6/Yt-downloader"
+  },
+  {
+    "name": "Easy-stuff",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/Easy-stuff",
+    "description": "GitHub repository: Easy-stuff.",
+    "tags": [
+      "GitHub",
+      "Public",
+      "C++"
+    ],
+    "live": "https://github.com/V1ron6/Easy-stuff",
+    "code": "https://github.com/V1ron6/Easy-stuff"
+  },
+  {
+    "name": "offshore",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/offshore",
+    "description": "GitHub repository: offshore.",
+    "tags": [
+      "GitHub",
+      "Public",
+      "JavaScript"
+    ],
+    "live": "https://offshore-beta.vercel.app",
+    "code": "https://github.com/V1ron6/offshore"
+  },
+  {
+    "name": "Guess-the-number-",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/Guess-the-number-",
+    "description": "A guessing game created in bash ",
+    "tags": [
+      "GitHub",
+      "Public",
+      "Shell"
+    ],
+    "live": "https://github.com/V1ron6/Guess-the-number-",
+    "code": "https://github.com/V1ron6/Guess-the-number-"
+  },
+  {
+    "name": "Week3-crud-todo-api",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/Week3-crud-todo-api",
+    "description": "GitHub repository: Week3-crud-todo-api.",
+    "tags": [
+      "GitHub",
+      "Public",
+      "JavaScript"
+    ],
+    "live": "https://github.com/V1ron6/Week3-crud-todo-api",
+    "code": "https://github.com/V1ron6/Week3-crud-todo-api"
+  },
+  {
+    "name": "Btech_backend_week2",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/Btech_backend_week2",
+    "description": "GitHub repository: Btech_backend_week2.",
+    "tags": [
+      "GitHub",
+      "Public",
+      "JavaScript"
+    ],
+    "live": "https://github.com/V1ron6/Btech_backend_week2",
+    "code": "https://github.com/V1ron6/Btech_backend_week2"
+  },
+  {
+    "name": "tecno",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/tecno",
+    "description": "GitHub repository: tecno.",
+    "tags": [
+      "GitHub",
+      "Public",
+      "HTML"
+    ],
+    "live": "https://github.com/V1ron6/tecno",
+    "code": "https://github.com/V1ron6/tecno"
+  },
+  {
+    "name": "Btech_backend",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/Btech_backend",
+    "description": "A repository I created for my backend course at btechnified",
+    "tags": [
+      "GitHub",
+      "Public",
+      "JavaScript"
+    ],
+    "live": "https://github.com/V1ron6/Btech_backend",
+    "code": "https://github.com/V1ron6/Btech_backend"
+  },
+  {
+    "name": "portfolio",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/portfolio",
+    "description": "GitHub repository: portfolio.",
+    "tags": [
+      "GitHub",
+      "Public",
+      "CSS"
+    ],
+    "live": "https://github.com/V1ron6/portfolio",
+    "code": "https://github.com/V1ron6/portfolio"
+  },
+  {
+    "name": "foodhub",
+    "src": "https://opengraph.githubassets.com/1/V1ron6/foodhub",
+    "description": "a site made in html using the fetch api function",
+    "tags": [
+      "GitHub",
+      "Public",
+      "CSS"
+    ],
+    "live": "https://github.com/V1ron6/foodhub",
+    "code": "https://github.com/V1ron6/foodhub"
+  }
 ]
