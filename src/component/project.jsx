@@ -17,9 +17,9 @@ const createProjectPlaceholder = (name = 'Project') =>
 		(() => {
 			const safeName = escapeXml(name);
 			return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-			<rect width="1200" height="630" fill="#111827" />
-			<text x="600" y="315" text-anchor="middle" dominant-baseline="middle" fill="#f8fafc" font-size="64" font-family="Inter, Arial, sans-serif">${safeName}</text>
-		</svg>`;
+	<rect width="1200" height="630" fill="#111827" />
+	<text x="600" y="315" text-anchor="middle" dominant-baseline="middle" fill="#f8fafc" font-size="64" font-family="Inter, Arial, sans-serif">${safeName}</text>
+</svg>`;
 		})()
 	)}`;
 const DEFAULT_PROJECT_IMAGE = createProjectPlaceholder();
@@ -61,7 +61,7 @@ const Projects = () => {
 
 					return {
 						...item,
-						src: isOgpImage || !source ? fallbackSrc : source,
+						src: !source || isOgpImage ? fallbackSrc : source,
 						fallbackSrc,
 						tags: inferTags(item),
 						live: typeof item.live === 'string' && item.live.trim() ? item.live.trim() : null,
