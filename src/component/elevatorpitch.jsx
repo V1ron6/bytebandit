@@ -1,6 +1,6 @@
 import './styles/elevatorpitch.css';
 
-const elevatorPitchUrl = '';
+const elevatorPitchUrl = 'https://drive.google.com/drive/folders/1CpP9hI6CYAW1c7Z1ebFZgEn50Ks4EARa ';
 
 const ElevatorPitch = () => {
   return (
@@ -8,8 +8,7 @@ const ElevatorPitch = () => {
       <p className="eyebrow">Section C</p>
       <h2>Elevator Pitch</h2>
       <p>
-        Upload your elevator pitch video to YouTube or Google Drive, then replace the link below
-        to publish it here.
+        Below is the link to a pitch video about myself
       </p>
       {elevatorPitchUrl ? (
         <a href={elevatorPitchUrl} target="_blank" rel="noreferrer">

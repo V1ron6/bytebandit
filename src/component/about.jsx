@@ -37,6 +37,12 @@ const About = () => {
 						fragile. My long-term focus is building resilient, inclusive, and secure digital
 						systems as part of the African infrastructure mission.
 					</p>
+                                        <p>    For clients and employers, that translates directly into fewer headaches: cleaner codebases,
+                                               more resilient systems,and a developer who can own a problem end-to-end without constant hand-holding.
+                                               I'd be delighted to bring that combination of builder and breaker thinking to your team — and help you 
+                                               ship products that are fast, functional, and actually secure    
+
+                                       </p>
 				</article>
 			</div>
 		</section>
